@@ -15,6 +15,13 @@ Currently building multi-agent platforms on LangGraph for 200+ enterprise tenant
 Clean-room rebuilds of patterns I run in production: synthetic data, tests, CI and written design
 decisions.
 
+**[graphrag-neo4j](https://github.com/MurtazaBhutta/graphrag-neo4j)**
+*Shows: when graph RAG beats vector RAG, measured honestly, including where it doesn't.*
+Natural-language Q&A over 53k field-service records in Neo4j, benchmarked against plain vector
+RAG on the same data and embeddings. Graph RAG answers 21 of 25 questions exactly, against 0 for
+vector RAG, with a fifth of the context. The LLM fills a typed query plan instead of writing
+Cypher, and CI checks every graph answer against an independent reference on 300 random plans.
+
 **[django-invoice-agent](https://github.com/MurtazaBhutta/django-invoice-agent)**
 *Shows: production Django with an LLM that can't move money on its own.*
 Django + DRF + PostgreSQL + Celery. Claude reads supplier invoices from email (structured
