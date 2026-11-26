@@ -24,7 +24,7 @@ Cypher, and CI checks every graph answer against an independent reference on 300
 
 **[django-invoice-agent](https://github.com/MurtazaBhutta/django-invoice-agent)**
 *Shows: production Django with an LLM that can't move money on its own.*
-Django + DRF + PostgreSQL + Celery. Claude reads supplier invoices from email (structured
+Django + DRF + PostgreSQL + Celery. Claude or Azure OpenAI reads supplier invoices from email (structured
 outputs); deterministic rules decide whether to post, skip or escalate, with a reason a reviewer
 can act on. Each invoice posts exactly once under webhook retries, task redelivery and racing
 duplicates, and real-thread PostgreSQL tests check it. An eval gate in CI allows zero unsafe postings.
