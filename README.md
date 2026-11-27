@@ -50,4 +50,4 @@ Python, Django, FastAPI, PostgreSQL
 ---
 
 📍 Lahore, Pakistan · open to remote (US/UK hours) and relocation ·
-[LinkedIn](https://linkedin.com/in/ghulam-murtaza-9024071a5)
+[LinkedIn](https://linkedin.com/in/ghulam-murtaza-68063b140)
